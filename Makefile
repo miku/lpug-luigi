@@ -5,4 +5,4 @@ plays.ldj:
 	python makesample.py > plays.ldj
 
 clean:
-	rm -f slides.pdf plays.ldj
+	rm -f plays.ldj
