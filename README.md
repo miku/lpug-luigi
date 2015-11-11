@@ -28,7 +28,7 @@ $ head plays.ldj
 
 The date values range from `2015-10-01` to `2015-10-30`.
 
-Create a virtualenv and install deps:
+[Create a virtualenv](http://virtualenvwrapper.readthedocs.org/en/latest/command_ref.html#mkvirtualenv) and install deps:
 
 ```sh
 $ mkvirtualenv lpug-luigi
