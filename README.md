@@ -3,7 +3,7 @@ README
 
 Material on [luigi](https://github.com/spotify/luigi) presentation from
 [LPUG](http://www.python-academy.com/user-group/index.html) meeting on
-10/11/2015.
+10/11/2015. [Slides](https://github.com/miku/lpug-luigi/blob/master/slides.pdf).
 
 Examples
 --------
