@@ -35,15 +35,15 @@ There are four tasks in `main.py`. Run a single task with *local scheduler* only
 
     $ python main.py DailyPlays --date 2015-10-08 --local-scheduler
 
-    [2015-11-11 ...] Informed scheduler that task DailyPlays(date=2015-10-08) has status PENDING
+    [2015-11-11 ...] Informed scheduler that task DailyPlays(date=2015-10-08) ... PENDING
     [2015-11-11 ...] Informed scheduler that task InputFile() has status DONE
     [2015-11-11 ...] Done scheduling tasks
     [2015-11-11 ...] Running Worker with 1 processes
     [2015-11-11 ...] Starting pruning of task graph
     [2015-11-11 ...] Done pruning task graph
     [2015-11-11 ...] [pid 87712] Worker Worker(...) running DailyPlays(date=2015-10-08)
-    [2015-11-11 ...] [pid 87712] Worker Worker(...) done      DailyPlays(date=2015-10-08)
-    [2015-11-11 ...] Informed scheduler that task DailyPlays(date=2015-10-08) has status DONE
+    [2015-11-11 ...] [pid 87712] Worker Worker(...) done DailyPlays(date=2015-10-08)
+    [2015-11-11 ...] Informed scheduler that task DailyPlays(date=2015-10-08) ... DONE
     [2015-11-11 ...] Starting pruning of task graph
     [2015-11-11 ...] Done pruning task graph
     [2015-11-11 ...] Done
@@ -58,7 +58,7 @@ There are four tasks in `main.py`. Run a single task with *local scheduler* only
     * 1 ran successfully:
         - 1 DailyPlays(date=2015-10-08)
 
-    This progress looks :) because there were no failed tasks or missing external dependencies
+    This progress looks :) because there were no failed tasks or ... dependencies
 
     ===== Luigi Execution Summary =====
 
